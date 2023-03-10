@@ -1,0 +1,16 @@
+.resume {
+    color: black;
+    background-color:lightslategrey;
+    box-sizing: border-box;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    word-wrap: normal;
+}
+
+.img {
+    height: 30px;
+}
