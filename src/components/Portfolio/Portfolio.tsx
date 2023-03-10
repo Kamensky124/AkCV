@@ -1,7 +1,7 @@
 import React from "react"
 import s from "./Portfolio.module.css"
 import faceBookWorkImg from "../../assets/img/imgWorks/Facebook.webp";
-import sneakersShopWorkImg from "../../assets/img/imgWorks/sneakersShop.png";
+import sneakersShopWorkImg from "../../assets/img/imgWorks/sneakersShop.jpg";
 import toDoListWorkImg from "../../assets/img/imgWorks/toDoList.png";
 
 //
