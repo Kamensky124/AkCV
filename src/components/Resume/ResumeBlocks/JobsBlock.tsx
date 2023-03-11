@@ -22,7 +22,11 @@ export const JobBlock = (props: JobBlockTypeProps) => {
             <a href={props.companySite}>{props.company}</a>
             <span>{props.position}</span>
             <span>{props.period}</span>
-            <p>{props.achievement1}</p>
+            <ul>
+            <li>{props.achievement1}</li>
+                <li>{props.achievement2}</li>
+            </ul>
         </div>
     )
 }
+

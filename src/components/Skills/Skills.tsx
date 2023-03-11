@@ -48,7 +48,7 @@ export const Skills = () => {
 
     return (
         <div className={s.skillsBoxForAll}>
-            <p className={s.skillTitle}>My skills</p>
+            <h3 className={s.skillTitle}>My skills</h3>
             <div className={s.skillBoxForSkills}>
                 {skillsArray.map(sk =>
                     <Skill

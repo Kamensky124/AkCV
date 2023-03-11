@@ -1,7 +1,6 @@
 import React from "react"
 import s from "./JobBlock.module.css"
 
-
 export type EduBlockTypeProps = {
     id: string,
     company: string,

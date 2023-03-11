@@ -89,7 +89,7 @@ export const Resume = ()  =>{
 ]
     return (
     <div className={s.resume}>
-        <div>Experience</div>
+        <h3>Experience</h3>
         {JobsArray.map(jb =>
             <JobBlock
                 key={jb.id}
@@ -99,9 +99,12 @@ export const Resume = ()  =>{
                 position={jb.position}
                 period={jb.period}
                 achievement1={jb.achievement1}
+                achievement2={jb.achievement2}
+                achievement3={jb.achievement3}
+                achievement4={jb.achievement4}
                 imgSrc={jb.imgSrc}
             />)}
-        <div>Education</div>
+        <h3>Education</h3>
         {EduArray.map(jb =>
             <EduBlock
                 key={jb.id}
