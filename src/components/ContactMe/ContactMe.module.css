@@ -1,12 +1,8 @@
 .contactMe {
+    border: 1px solid;
     color: black;
     background-color:dimgrey;
-    box-sizing: border-box;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    word-wrap: normal;
+    display: grid;
+    flex-direction: column;
+    border: 1px solid;
 }

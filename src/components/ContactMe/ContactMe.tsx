@@ -6,6 +6,12 @@ export const ContactMe = ()  =>{
     return (
     <div className={s.contactMe}>
         <form>
+            <input type="text"></input>
+                <input type="text"></input>
+                    <textarea>
+
+                    </textarea>
+                    <button type="submit"></button>
         </form>
     </div>
 )}

@@ -6,6 +6,7 @@ import {ContactBoard} from "../ContactsBoard/ContactBoard";
 export const Footer = () => {
     return (
         <div className={s.footer}>
+            <p>Andrey Kamensky</p>
             <ContactBoard/>
         </div>
     )

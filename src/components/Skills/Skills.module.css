@@ -3,27 +3,25 @@
     background-color:lightslategray;
     box-sizing: border-box;
     padding: 10px;
-
+    border: 1px solid;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-basis: border-box;
 }
 
-.skillBoxForOne {
-    width: 30%;
+.skillBoxForSkills {
+    color: black;
+    background-color:lightslategray;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-basis: border-box;
 }
 
 .skillTitle {
     align-content: center;
     alignment: center;
-}
-
-.imgSkill {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30px;
+    border: 1px solid;
 }

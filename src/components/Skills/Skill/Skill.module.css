@@ -1,0 +1,18 @@
+.skillBox {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: border-box;
+    border: 1px solid;
+}
+
+.skillTitle {
+    align-content: center
+}
+
+.imgSkill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
