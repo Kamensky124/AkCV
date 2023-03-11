@@ -1,12 +1,10 @@
 .contactBoard {
-    color: black;
-    background-color:dimgrey;
-    box-sizing: border-box;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    word-wrap: normal;
+    flex-direction: row;
+    flex-basis: border-box;
+    justify-content:space-evenly;
+
+    flex-basis: border-box;
+    color: black;
+    background-color:darkgray;
 }

@@ -1,0 +1,10 @@
+.navBar {
+    width: 280px;
+    border-radius: 4px;
+    border: 1px solid;
+
+    display: flex;
+    flex-direction: row;
+    flex-basis: border-box;
+    justify-content:space-between;
+}

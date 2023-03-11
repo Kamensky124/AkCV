@@ -1,16 +1,29 @@
-.skills {
+.skillsBoxForAll {
     color: black;
     background-color:lightslategray;
     box-sizing: border-box;
     padding: 10px;
-    justify-content: center;
-    align-items: center;
+
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    word-wrap: normal;
+    flex-direction: row;
+    flex-basis: border-box;
 }
 
-.img {
+.skillBoxForOne {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: border-box;
+}
+
+.skillTitle {
+    align-content: center;
+    alignment: center;
+}
+
+.imgSkill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 30px;
 }

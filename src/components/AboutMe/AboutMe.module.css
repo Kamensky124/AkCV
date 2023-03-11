@@ -1,17 +1,30 @@
-.aboutMe {
+.myImgTextAboutMeContacts {
+
+    display: flex;
+    flex-direction: column;
+    flex-basis: border-box;
+
     color: black;
-    background-color:darkgray;
+    background-color: darkgray;
     box-sizing: border-box;
     padding: 10px;
-    justify-content: center;
-    align-items: center;
+}
+
+.myImgTextAboutMe {
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    word-wrap: normal;
+    flex-direction: row;
+    flex-basis: border-box;
+}
+
+.TextAboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1em;
+    text-align: justify-all;
 }
 
 .img {
-    height: 200px;
+    height: 30vw;
     border-radius: 50%;
 }
