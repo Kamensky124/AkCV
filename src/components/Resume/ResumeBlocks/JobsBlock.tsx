@@ -21,13 +21,13 @@ export const JobBlock = (props: JobBlockTypeProps) => {
     return (
         <div className={s.jobBox}>
 
-            <div className={'jobTitleWrapper'}>
-                <span className={'jobPosition'}>{props.position}</span>
-                <span className={'jobCompanyLogo'}><img src={props.imgSrc} className={s.imgJob}></img></span>
-                <span className={'jobCompanyTitle'}><a href={props.companySite}>{props.company}</a></span>
-                <span className={'jobCompanyPeriod'}>{props.period}</span>
+            <div className={s.jobTitleWrapper}>
+                <span className={s.jobTitleItem}>{props.position}</span>
+                <span className={s.jobTitleItem}><img src={props.imgSrc} className={s.imgJob}></img></span>
+                <span className={s.jobTitleItem}><a href={props.companySite}>{props.company}</a></span>
+                <span className={s.jobTitleItem}>{props.period}</span>
             </div>
-            <div className={'JobArchievementsBox'}>
+            <div className={s.jobArchievementText}>
                 <ul>
                     {props.achievements.map(arch =>
                         <li

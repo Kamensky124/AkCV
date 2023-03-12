@@ -6,26 +6,28 @@ export const ContactMe = () => {
     return (
         <div className={s.contactMeFormWrapper}>
             <div className={s.a}></div>
-            <h3>Contact me</h3>
+            <h3 className={s.contactsTitle}>Contact me</h3>
             <form>
-                <div>
-                    <span>Your Name</span>
-                    <input type="text"></input>
-                </div>
+                <ul className={s.formWrapper}>
+                <li className={s.formRow}>
+                    <label>Your Name</label>
+                    <input type="text" id="name"></input>
+                </li>
 
-                <div>
-                    <span>E-mail</span>
-                    <input type="text"></input>
-                </div>
-
-                <div>
+                <li className={s.formRow}>
+                    <label>E-mail</label>
+                    <input type="email" id="email"></input>
+                </li>
+                <li className={s.formRow}>
                     <p>Message</p>
-                    <textarea>
+                    <textarea id="msg">
 
                     </textarea>
-                </div>
-                <br/>
+                </li>
+                <li className={s.formSubmitBtn}>
                 <button type="submit">Submit</button>
+                </li>
+                </ul>
             </form>
         </div>
     )

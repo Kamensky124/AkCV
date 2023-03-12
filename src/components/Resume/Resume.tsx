@@ -101,7 +101,7 @@ export const Resume = () => {
         {
             id: v1(),
             speciality: 'Frontend developer',
-            company: 'IT-Incubator',
+            company: 'IT-Incubator, Minsk, Belarus',
             companySite: 'https://it-incubator.io/',
             period: '2023',
             imgSrc: resumeITIncimg

@@ -4,8 +4,11 @@
     flex-direction: row;
     flex-basis: border-box;
     justify-content:space-evenly;
-
-    flex-basis: border-box;
     color: black;
     padding: 20px;
+}
+
+.logoContact {
+    height: 50px;
+    min-width: 50px;
 }

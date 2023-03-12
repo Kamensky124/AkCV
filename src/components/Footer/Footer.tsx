@@ -7,7 +7,7 @@ export const Footer = () => {
     return (
         <div>
             <div className={s.footer}>
-            <p>Andrey Kamensky</p>
+            <h3>Andrey Kamensky</h3>
             <ContactBoard/>
             </div>
         </div>

@@ -1,6 +1,7 @@
 .contactMeFormWrapper {
+    padding: 20px;
     width: 80%;
-    border: 1px solid;
+
     color: black;
     background-color: dimgrey;
     display: grid;
@@ -12,3 +13,29 @@
     padding: 20px;
 }
 
+.formWrapper {
+
+    display: flex;
+    flex-direction: column;
+
+}
+.contactsTitle {
+    display: flex;
+    justify-content:center;
+}
+
+.formRow {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.formSubmitBtn {
+    width: 100%;
+    padding: 0 0 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}

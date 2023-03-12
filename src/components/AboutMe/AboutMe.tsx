@@ -12,10 +12,9 @@ export const AboutMe = () => {
                 <div className={s.TextAboutMe}>
                     <p> Hello!</p>
                     <h2>I'm Andrey Kamensky, frontend developer.</h2>
-                    <p>I'm glad to see you in my GitHub. Have a nice day!</p>
+                    <p>I'm glad to see you here. Have a nice day!</p>
                 </div>
             </div>
-            <ContactBoard/>
         </div>
 
     )

@@ -1,9 +1,14 @@
 .eduBox {
+    width: 100%;
+    padding: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-basis: border-box;
     border: 1px solid;
-    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -13,4 +18,8 @@
     align-items: center;
     max-height: 40px;
     max-width: 40px;
+}
+
+.eduTitleItem {
+flex: 25%
 }

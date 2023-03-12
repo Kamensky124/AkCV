@@ -1,4 +1,6 @@
 .jobBox {
+    padding: 20px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     border: 1px solid;
@@ -6,23 +8,16 @@
 }
 
 .jobTitleWrapper {
+    width: 100%;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.jobPosition {
-
-}
-
-.jobCompanyLogo {
-
-}
-
-.jobCompanyTitle {
-}
-
-.jobCompanyPeriod {
-
+.jobTitleItem {
+    flex: 25%;
 }
 
 .imgJob {

@@ -11,7 +11,7 @@ export type MyWorkBlockTypeProps = {
 export const MyWorkBlock = (props: MyWorkBlockTypeProps) => {
     return (
         <div className={s.myWorksBox}>
-            <a href="" style={props.imgSrc} className={s.goToWorkButton}>Посмотреть</a>
+            <a href="" style={props.imgSrc} className={s.goToWorkButton}>Go to GH-Pages deploy</a>
             <div>
                 <b className={s.myWorkTitle}>{props.myWorkTitle}</b>
             <p className={s.myWorkDescription}>{props.myWorkDescription}</p>

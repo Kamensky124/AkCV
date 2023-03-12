@@ -14,9 +14,9 @@ export const EduBlock = (props: EduBlockTypeProps) => {
     return (
         <div className={s.eduBox}>
             <img src={props.imgSrc} className={s.imgEdu}></img>
-            <a href={props.companySite}>{props.company}</a>
-            <span>{props.speciality}</span>
-            <span>{props.period}</span>
+            <a href={props.companySite} className={s.eduTitleItem}>{props.company}</a>
+            <span className={s.eduTitleItem}>{props.speciality}</span>
+            <span className={s.eduTitleItem}>{props.period}</span>
         </div>
     )
 }
