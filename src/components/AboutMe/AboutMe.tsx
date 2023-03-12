@@ -10,7 +10,8 @@ export const AboutMe = () => {
             <div className={s.myImgTextAboutMe}>
                 <img src={myFaceImg} className={s.img}></img>
                 <div className={s.TextAboutMe}>
-                    <p> Hello! I'm Andrey Kamensky, frontend developer.</p>
+                    <p> Hello!</p>
+                    <h2>I'm Andrey Kamensky, frontend developer.</h2>
                     <p>I'm glad to see you in my GitHub. Have a nice day!</p>
                 </div>
             </div>

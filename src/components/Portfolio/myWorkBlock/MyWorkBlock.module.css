@@ -1,5 +1,5 @@
 .myWorksBox {
-    width: 30%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     flex-basis: border-box;
@@ -7,12 +7,22 @@
 }
 
 .myWorkTitle {
-    align-content: center
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
 }
 
-.imgWork {
+.goToWorkButton {
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: 100px;
+}
+
+.myWorkDescription {
+    display: flex;
+    justify-content: center;
+    font-size: 0.9rem;
+    padding: 10px 10px 10px 10px;
 }

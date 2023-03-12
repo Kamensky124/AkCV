@@ -13,8 +13,8 @@ export const Skill = (props: SkillTypeProps) => {
     return (
         <div className={s.skillBox}>
             <img src={props.imgSrc} className={s.imgSkill}></img>
-            <span className={s.skillTitle}>{props.title}</span>
-            <p>{props.description}</p>
+            <b className={s.skillTitle}>{props.title}</b>
+            <p className={s.skillDescription}>{props.description}</p>
         </div>
     )
 }

@@ -13,41 +13,44 @@ import {Skill, SkillTypeProps} from "./Skill/Skill";
 //
 export const Skills = () => {
 
+    const textAboutSkill: string = "A text about how this is very important. It will save our world, make it a better place. It would be great if everyone knew this"
+
     const skillsArray: Array<SkillTypeProps> = [
         {
             id: v1(),
             title: 'Javascript',
-            description: 'Some meaningful words about title',
+            description: textAboutSkill,
             imgSrc: skillsJSimg
         },
         {
             id: v1(),
             title: 'Typescript',
-            description: 'Some meaningful words about title',
+            description: textAboutSkill,
             imgSrc: skillsTSimg
         },
         {
             id: v1(),
             title: 'React',
-            description: 'Some meaningful words about title',
+            description: textAboutSkill,
             imgSrc: skillsReactImg
         },
         {
             id: v1(),
             title: 'Redux',
-            description: 'Some meaningful words about title',
+            description: textAboutSkill,
             imgSrc: skillsReduxImg
         },
         {
             id: v1(),
             title: 'GitHub',
-            description: 'Some meaningful words about title',
+            description: textAboutSkill,
             imgSrc: skillsGitHubImg
         },
     ]
 
     return (
-        <div className={s.skillsBoxForAll}>
+        <div className={s.skillsBoxWrapper}>
+            <div className={s.a}></div>
             <h3 className={s.skillTitle}>My skills</h3>
             <div className={s.skillBoxForSkills}>
                 {skillsArray.map(sk =>

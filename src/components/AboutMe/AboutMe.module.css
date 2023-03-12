@@ -1,13 +1,15 @@
 
 .myImgTextAboutMeContacts {
-    height: 100vh;
+    /*height: 100vh;*/
+    width: 80%;
     display: flex;
     flex-direction: column;
     flex-basis: border-box;
     color: black;
     background-color: darkgray;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 20px;
+    margin: 0 auto;
 }
 
 .myImgTextAboutMe {

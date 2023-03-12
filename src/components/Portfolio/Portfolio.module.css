@@ -1,16 +1,23 @@
-.portfolio {
+.portfolioWrapper {
     color: black;
     background-color:grey;
     box-sizing: border-box;
-    padding: 10px;
     justify-content: center;
     align-items: center;
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    word-wrap: normal;
+    flex-direction: column;
+    width: 80%;
+    border: 1px solid;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .img {
     height: 200px;
+}
+
+.worksWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }

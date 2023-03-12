@@ -1,5 +1,5 @@
 import React from "react"
-import s from "./JobBlock.module.css"
+import s from "./EduBlock.module.css"
 
 export type EduBlockTypeProps = {
     id: string,

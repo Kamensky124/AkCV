@@ -1,9 +1,11 @@
 .header {
+    width: 80%;
     color: black;
-    background-color:darkolivegreen;
-    padding: 10px;
+    background-color:dimgrey;
     display: flex;
     flex-direction: row;
     justify-content:flex-end;
     align-items: center;
+    margin: 0 auto;
+    padding: 20px;
 }

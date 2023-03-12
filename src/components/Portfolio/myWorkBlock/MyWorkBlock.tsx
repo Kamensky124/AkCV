@@ -5,15 +5,17 @@ export type MyWorkBlockTypeProps = {
     id: string,
     myWorkTitle: string,
     myWorkDescription: string,
-    imgSrc: string
+    imgSrc: object
 }
 
 export const MyWorkBlock = (props: MyWorkBlockTypeProps) => {
     return (
         <div className={s.myWorksBox}>
-            <img src={props.imgSrc} className={s.imgWork}></img>
-            <span className={s.myWorkTitle}>{props.myWorkTitle}</span>
-            <p>{props.myWorkDescription}</p>
+            <a href="" style={props.imgSrc} className={s.goToWorkButton}>Посмотреть</a>
+            <div>
+                <b className={s.myWorkTitle}>{props.myWorkTitle}</b>
+            <p className={s.myWorkDescription}>{props.myWorkDescription}</p>
+            </div>
         </div>
     )
 }

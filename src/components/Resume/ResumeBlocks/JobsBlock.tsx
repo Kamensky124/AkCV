@@ -8,24 +8,36 @@ export type JobBlockTypeProps = {
     companySite: string,
     position: string,
     period: string,
-    achievement1?: string,
-    achievement2?: string,
-    achievement3?: string,
-    achievement4?: string,
+    achievements: Array<achievementType>,
     imgSrc: string
+}
+
+export type achievementType = {
+    idArch: string,
+    textArch: string
 }
 
 export const JobBlock = (props: JobBlockTypeProps) => {
     return (
         <div className={s.jobBox}>
-            <img src={props.imgSrc} className={s.imgJob}></img>
-            <a href={props.companySite}>{props.company}</a>
-            <span>{props.position}</span>
-            <span>{props.period}</span>
-            <ul>
-            <li>{props.achievement1}</li>
-                <li>{props.achievement2}</li>
-            </ul>
+
+            <div className={'jobTitleWrapper'}>
+                <span className={'jobPosition'}>{props.position}</span>
+                <span className={'jobCompanyLogo'}><img src={props.imgSrc} className={s.imgJob}></img></span>
+                <span className={'jobCompanyTitle'}><a href={props.companySite}>{props.company}</a></span>
+                <span className={'jobCompanyPeriod'}>{props.period}</span>
+            </div>
+            <div className={'JobArchievementsBox'}>
+                <ul>
+                    {props.achievements.map(arch =>
+                        <li
+                            key={arch.idArch}
+                            className={s.jobArchievementText}>
+                            {arch.textArch}
+                        </li>
+                    )}
+                </ul>
+            </div>
         </div>
     )
 }

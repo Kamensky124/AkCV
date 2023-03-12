@@ -1,14 +1,13 @@
 .resume {
+    width: 80%;
+    border: 1px solid;
     color: black;
     background-color:lightslategrey;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 20px;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-    word-wrap: normal;
-    border: 1px solid;
+    margin: 0 auto;
 }

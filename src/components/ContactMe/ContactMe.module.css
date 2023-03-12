@@ -1,8 +1,14 @@
-.contactMe {
+.contactMeFormWrapper {
+    width: 80%;
     border: 1px solid;
     color: black;
-    background-color:dimgrey;
+    background-color: dimgrey;
     display: grid;
     flex-direction: column;
     border: 1px solid;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    padding: 20px;
 }
+
